@@ -3,18 +3,18 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "astronave.hpp"
-#include "Bunker1.hpp"
-#include "Bunker2.hpp"
-#include "carburante.hpp"
+#include "astronave/astronave.hpp"
+#include "bunker/Bunker1.hpp"
+#include "bunker/Bunker2.hpp"
+#include "astronave/carburante.hpp"
 #include "Pianeta.hpp"
 #include "posizionexy.hpp"
 #include "Proiettile.hpp"
-#include "ProiettileBunker.hpp"
-#include "ProiettileBunker2.hpp"
-#include "ProiettileBunker3.hpp"
-#include "ProiettileBunker4.hpp"
-#include "serbatoio_astronave.hpp"
+#include "bunker/ProiettileBunker.hpp"
+#include "bunker/ProiettileBunker2.hpp"
+#include "bunker/ProiettileBunker3.hpp"
+#include "bunker/ProiettileBunker4.hpp"
+#include "astronave/serbatoio_astronave.hpp"
 #include "Sistema_Solare.hpp"
 #include "lista_sistemi_solari.hpp"
 

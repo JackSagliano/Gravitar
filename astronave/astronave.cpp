@@ -1,6 +1,6 @@
-#include "astronave.hpp"
+#include "astronave/astronave.hpp"
 
-int astronave::movimento() { //nel caso si inserisca come input 'a' o 'd', si fa il return(x) poichè ci si muove lungo l'asse delle x, con 'w' e 's' lungo l'asse delle y
+int astronave::movimento() { //nel caso si inserisca come input 'a' o 'd', si fa il return(x) poichï¿½ ci si muove lungo l'asse delle x, con 'w' e 's' lungo l'asse delle y
 	if ((button == 'w') && (y > 0)) {
 		y = y - 1;
 		return(y);
@@ -34,7 +34,7 @@ int astronave::PunteggioExtra(int& punteggio)
 	return (punteggio);
 }
 
-bool astronave::active_raggio_traente() { //se il raggio attraente è disattivato, si attiva, viceversa se è già attivato, si disattiva
+bool astronave::active_raggio_traente() { //se il raggio attraente ï¿½ disattivato, si attiva, viceversa se ï¿½ giï¿½ attivato, si disattiva
 	if ((raggio_traente == true)) {           
 		raggio_traente = false;
 

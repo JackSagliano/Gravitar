@@ -1,0 +1,1 @@
+g++ -I. -Iastronave -Ibunker MAIN.cpp astronave/astronave.cpp bunker/Bunker1.cpp bunker/Bunker2.cpp bunker/ProiettileBunker.cpp bunker/ProiettileBunker2.cpp bunker/ProiettileBunker3.cpp bunker/ProiettileBunker4.cpp astronave/serbatoio_astronave.cpp astronave/carburante.cpp Pianeta.cpp posizionexy.cpp Proiettile.cpp Sistema_Solare.cpp -o MAIN.exe   
