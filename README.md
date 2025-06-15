@@ -1,60 +1,91 @@
 # 🚀 Non-Gravitar
 
-_Un videogioco arcade testuale in C++_
+_A text-based arcade game in C++_
 
-**Non-Gravitar** è un gioco ASCII ambientato nello spazio, dove il giocatore pilota l’astronave **Infinity** attraverso una galassia infinita composta da sistemi solari. Ogni sistema contiene due pianeti, ciascuno difeso da bunker armati.
-L’obiettivo è distruggerli, raccogliere carburante e sopravvivere il più a lungo possibile.
+**Non-Gravitar** is an ASCII space game where you pilot the spaceship **Infinity** through an endless galaxy made of dynamically generated solar systems.  
+Each system contains two planets defended by armed bunkers. Your mission: destroy them, collect fuel, and survive as long as you can.
 
 ---
 
 ## 🎮 Gameplay
 
-### 🎯 Obiettivo
-- Esplora i sistemi solari
-- Entra nei pianeti
-- Distruggi tutti i bunker per eliminare il pianeta
-- Raccogli carburante (GPL o Benzina)
-- Passa a sistemi solari adiacenti
-- Evita il Game Over!
+### 🎯 Objective
 
-### 🕹️ Comandi principali
-| Tasto | Azione                         |
-|-------|--------------------------------|
-| `W`   | Su                             |
-| `S`   | Giù                            |
-| `A`   | Sinistra                       |
-| `D`   | Destra                         |
-| `X`   | Attiva/disattiva raggio        |
-| `I`   | Spara missile 1                |
-| `O`   | Spara missile 2                |
-| `P`   | Spara missile 3                |
+- Explore solar systems  
+- Land on planets  
+- Destroy all bunkers to eliminate a planet  
+- Collect fuel (GPL or Petrol)  
+- Travel to adjacent solar systems  
+- Avoid Game Over!
 
-> ℹ️ Disattiva il Bloc Maiusc: se attivo, i comandi non funzionano.
+### 🕹️ Controls
 
----
+| Key | Action                     |
+|-----|----------------------------|
+| `W` | Move Up                   |
+| `S` | Move Down                 |
+| `A` | Move Left                 |
+| `D` | Move Right                |
+| `X` | Toggle tractor beam       |
+| `I` | Fire missile 1            |
+| `O` | Fire missile 2            |
+| `P` | Fire missile 3            |
 
-## 🧠 Meccaniche di gioco
-
-- **Sistema solare infinito:** lista doppiamente collegata di sistemi generati dinamicamente
-- **Due tipi di carburante:**
-  - GPL → +10 movimenti
-  - Benzina → +20 movimenti
-- **3 missili differenti**: ognuno può essere riutilizzato solo dopo aver toccato terra
-- **Raggio traente**: attivabile con `X`, serve per raccogliere carburante
-- **Vite e carburante limitati**: Game Over se esauriti
-- **Memorizzazione stato**: se abbandoni un pianeta, ritroverai la situazione intatta al ritorno
+> ⚠️ Make sure **Caps Lock is off**, or controls won’t respond.
 
 ---
 
-## 💻 Schermata ASCII
+## 🧠 Mechanics
 
-Simboli di gioco:
-- `V` → Astronave
-- `A` → Raggio traente attivo
-- `S` → Pianeta 1
-- `N` → Pianeta 2
-- `0` → Bunker debole (2 colpi)
-- `8` → Bunker forte (3 colpi)
-- `I` → Missili sparati
+- **Infinite Galaxy:** implemented as a doubly linked list of solar systems  
+- **Two types of fuel:**
+  - GPL → +10 moves  
+  - Petrol → +20 moves  
+- **3 missiles:** each must hit the ground before being reused  
+- **Tractor Beam:** toggle with `X`, used to collect fuel  
+- **Limited resources:** you lose if you run out of fuel or lives  
+- **State memory:** planets keep their state even when you leave and come back
 
 ---
+
+## 💻 ASCII Symbols
+
+| Symbol | Meaning                 |
+|--------|-------------------------|
+| `V`    | Spaceship               |
+| `A`    | Active tractor beam     |
+| `S`    | Planet 1                |
+| `N`    | Planet 2                |
+| `0`    | Weak bunker (2 hits)    |
+| `8`    | Strong bunker (3 hits)  |
+| `I`    | Missile in flight       |
+
+---
+
+## 🧪 Requirements
+
+- C++ compiler (`g++`)
+- Terminal or console supporting ASCII characters
+
+---
+
+## 🛠️ Compile and Run
+
+```bash
+g++ -I. -Iastronave -Ibunker \
+  MAIN.cpp \
+  astronave/astronave.cpp \
+  bunker/Bunker1.cpp \
+  bunker/Bunker2.cpp \
+  bunker/ProiettileBunker.cpp \
+  bunker/ProiettileBunker2.cpp \
+  bunker/ProiettileBunker3.cpp \
+  bunker/ProiettileBunker4.cpp \
+  astronave/serbatoio_astronave.cpp \
+  astronave/carburante.cpp \
+  Pianeta.cpp \
+  posizionexy.cpp \
+  Proiettile.cpp \
+  Sistema_Solare.cpp \
+  lista_sistemi_solari.cpp \
+  -o MAIN.exe
