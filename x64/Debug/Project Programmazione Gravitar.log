@@ -1,0 +1,25 @@
+﻿  astronave.cpp
+  Bunker1.cpp
+  Bunker2.cpp
+  carburante.cpp
+  MAIN.cpp
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\sistema_solare.hpp(2): warning C4067: token imprevisti dopo una direttiva per il preprocessore. Previsto un carattere di nuova riga
+  Pianeta.cpp
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\sistema_solare.hpp(2): warning C4067: token imprevisti dopo una direttiva per il preprocessore. Previsto un carattere di nuova riga
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\pianeta.cpp(70): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\pianeta.cpp(74): warning C4553: '==': risultato dell'espressione non usato. Si intendeva '='?
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\pianeta.cpp(76): warning C4553: '==': risultato dell'espressione non usato. Si intendeva '='?
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\pianeta.cpp(283): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  posizionexy.cpp
+  Proiettile.cpp
+  ProiettileBunker.cpp
+  ProiettileBunker3.cpp
+  ProiettileBunker4.cpp
+  ProiettileBunker2.cpp
+  serbatoio_astronave.cpp
+  Sistema_Solare.cpp
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\sistema_solare.hpp(2): warning C4067: token imprevisti dopo una direttiva per il preprocessore. Previsto un carattere di nuova riga
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\sistema_solare.cpp(26): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  Generazione del codice in corso...
+c:\users\giaco\desktop\università\primo anno\progetto programmazione 2018-2019 nur kejje giacomo sagliano\project programmazione gravitar\project programmazione gravitar\astronave.cpp(24): warning C4715: 'astronave::movimento': non tutti i percorsi di controllo restituiscono un valore
+  Project Programmazione Gravitar.vcxproj -> C:\Users\giaco\Desktop\Università\Primo anno\Progetto Programmazione 2018-2019 Nur Kejje Giacomo Sagliano\Project Programmazione Gravitar\x64\Debug\Project Programmazione Gravitar.exe

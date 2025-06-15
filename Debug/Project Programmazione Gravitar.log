@@ -1,0 +1,4 @@
+﻿  Pianeta.cpp
+c:\users\kejje\desktop\università\progetto programmazione\project programmazione gravitar\project programmazione gravitar\pianeta.cpp(68): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+c:\users\kejje\desktop\università\progetto programmazione\project programmazione gravitar\project programmazione gravitar\pianeta.cpp(281): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  Project Programmazione Gravitar.vcxproj -> C:\Users\kejje\Desktop\Università\Progetto Programmazione\Project Programmazione Gravitar\Debug\Project Programmazione Gravitar.exe
